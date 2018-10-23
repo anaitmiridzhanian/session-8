@@ -1,19 +1,20 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Anait",
+    lastName: "Miridzhanian",
+    description: "Je suis étudiante en journalisme à Sciences Po Paris.",
+    photo: "./image.jpeg",
+    twitter: "Anahitik",
+    github: "anaitmiridzhanian",
+    mail: "anait.miridzhanian@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
-      dateEnd: "Today",
+      dateBegin: "Mai 2018",
+      dateEnd: "Juillet 2018",
       name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      title: "Stage journaliste agencier",
+      logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/d/dc/M_le_Magazine_du_Monde_logo_2016.svg/1280px-M_le_Magazine_du_Monde_logo_2016.svg.png",
+      description: "Rédaction et traduction de dépêches"
     }, {
       dateBegin: "Été 2013",
       dateEnd: false,
@@ -36,7 +37,8 @@ var app = new Vue({
       dateBegin: "2009",
       dateEnd: "2012",
       name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      university: "Sciences Po Grenoble",
+      logo:"grenoble.png"
     }],
     languages: ["Anglais"],
     skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]

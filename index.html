@@ -43,6 +43,7 @@
                 <span class="badge badge-dark float-right" v-else>{{ experience.dateBegin }}</span>
                 <h5>{{ experience.name }}</h5>
               </div>
+                <img :src="experience.logo" class="float-right" width="150" />
               <p class="lead text-muted">{{ experience.title }}</p>
               <p>{{ experience.description }}</p>
             </li>
@@ -59,6 +60,7 @@
                 <span class="badge badge-dark float-right" v-else>{{ formation.dateBegin }}</span>
                 <h5>{{ formation.university }}</h5>
               </div>
+ <img :src="formation.logo" class="float-right" width="150" />
               <p class="lead text-muted">{{ formation.name }}</p>
             </li>
           </ul>
